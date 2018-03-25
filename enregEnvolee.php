@@ -14,11 +14,8 @@ include 'headerButtons.php';
     <h1>Information d'une envolée</h1>
 
     <br>
-    <br>
         <form action="" method="post">
 
-            <br>
-            <br>
 
             <table>
                 <tr><th>Information du segment</th></tr>
@@ -30,6 +27,12 @@ include 'headerButtons.php';
 
                 <tr><td>Durée en minute</td>
                     <td><input type="text" name="duree"></td></tr>
+                <?php
+                if (isset($_GET["durMin"]))
+                {
+                    echo"La durée ne peut être de zéro.";
+                }
+                ?>
                 <tr><td>Identifiant du segment</td>
                     <td>
                         <select name='segement'>
@@ -74,6 +77,12 @@ include 'headerButtons.php';
                     </td>
                 </tr>
             </table>
+            <?php
+            if (isset($_GET["erDepart"]))
+            {
+                echo"Le départ et l'arrivé ne peut être pareil.";
+            }
+            ?>
 
             <br>
 
@@ -99,6 +108,12 @@ include 'headerButtons.php';
             </table>
             <br>
             <input type="submit" name="submit" value="Submit">
+            <?php
+            if (isset($_GET["Error"]))
+            {
+                echo"Tout les champs doivent être remplis";
+            }
+            ?>
         </form>
     </div>
     </div>
