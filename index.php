@@ -3,5 +3,6 @@
 
 <?php
 include 'headerButtons.php';
-include 'enregEnvolee.php';
 ?>
+<h1>Bienvenu sur Portair</h1>
+</html>

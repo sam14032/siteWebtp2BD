@@ -1,4 +1,9 @@
+<!DOCTYPE>
+<html>
 
+<?php
+include 'headerButtons.php';
+?>
 <body>
     <div class="bodyDiv"></div>
 
