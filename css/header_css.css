@@ -1,0 +1,32 @@
+#maindivheader
+{
+    width:100%;
+}
+.topnav
+{
+    background-color: black;
+    overflow: hidden;
+}
+.topnav a
+{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+.topnav a:hover
+{
+    background-color: aquamarine;
+    color: black;
+}
+
+.bodyDiv
+{
+    display:inline-block;
+    width:33%;
+}
+
+.clear
+{
+    float:clear;
+}
