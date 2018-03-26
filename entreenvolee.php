@@ -56,24 +56,24 @@ include 'headerButtons.php';
                 <tr><td>Départ</td>
                     <td>
                         <select name="aeDepart">
-                            <option value="QSI">Sept-iles</option>
-                            <option value="QGA">Gaspé</option>
-                            <option value="QRY">Rimouski</option>
-                            <option value="QBC">Baie-Comeau</option>
-                            <option value="QMJ">Mont-Jolie</option>
-                            <option value="QHP">Havre St-Pierre</option>
+                            <option value="1">Sept-iles</option>
+                            <option value="2">Gaspé</option>
+                            <option value="3">Rimouski</option>
+                            <option value="4">Baie-Comeau</option>
+                            <option value="5">Mont-Jolie</option>
+                            <option value="6">Havre St-Pierre</option>
                         </select>
                     </td>
                 </tr>
                 <tr><td>Arrivée</td>
                     <td>
                         <select name="aeArrivee">
-                            <option value="QSI">Sept-iles</option>
-                            <option value="QGA">Gaspé</option>
-                            <option value="QRY">Rimouski</option>
-                            <option value="QBC">Baie-Comeau</option>
-                            <option value="QMJ">Mont-Jolie</option>
-                            <option value="QHP">Havre St-Pierre</option>
+                            <option value="1">Sept-iles</option>
+                            <option value="2">Gaspé</option>
+                            <option value="3">Rimouski</option>
+                            <option value="4">Baie-Comeau</option>
+                            <option value="5">Mont-Jolie</option>
+                            <option value="6">Havre St-Pierre</option>
                         </select>
                     </td>
                 </tr>

@@ -8,19 +8,20 @@ $arrive = $_POST["aeArrivee"];
 $avion = $_POST["avion"];
 $pilote = $_POST["pilote"];
 $idvol = $_POST["idvol"];
-$mysqli = new mysqli("127.0.0.1","root","","portair");
-if ($mysqli->connect_errno)
-{
-    printf("Connect failed: %s\n", mysqli_connect_error());
-    header('index.php?Connect="fail"');
-}
-insertEnvolee($mysqli,$date,$idvol);
-insertVol($mysqli,$idvol);
-insertSegment($mysqli,$duree,$segment,$heuredepart,$idvol,$depart,$arrive,$avion,$pilote);
 
-function insertVol($mysqli,$idvol)
+insertVol($idvol);
+insertEnvolee($date,$idvol);
+insertSegment($duree,$segment,$heuredepart,$idvol,$depart,$arrive,$avion,$pilote);
+
+function insertVol($idvol)
 {
-    if($stmt = $mysqli->prepare("INSERT INTO vol(noVol,Date) VALUES (?)"))
+    $mysqli = new mysqli("127.0.0.1","root","","portair");
+    if ($mysqli->connect_errno)
+    {
+        printf("Connect failed: %s\n", mysqli_connect_error());
+        header('index.php?Connect="fail"');
+    }
+    if($stmt = $mysqli->prepare("INSERT INTO vol(noVol) VALUES (?)"))
     {
         if (!$stmt->bind_param("s",$idvol))
         {
@@ -32,15 +33,20 @@ function insertVol($mysqli,$idvol)
             header('index.php?Insert="fail"');
         }
     }
-
 }
 
-function insertEnvolee($mysqli,$date,$idvol)
+function insertEnvolee($date,$idvol)
 {
-    if($stmt = $mysqli->prepare("INSERT INTO envolee(idEnvolee,Date,Vol_id_Vol) VALUES (?,?)"))
+    $mysqli = new mysqli("127.0.0.1","root","","portair");
+    if ($mysqli->connect_errno)
     {
-        $formatdate = date("Y,m,d",strtotime($date));
-        if (!$stmt->bind_param("ss",null, $date,$idvol))
+        printf("Connect failed: %s\n", mysqli_connect_error());
+        header('index.php?Connect="fail"');
+    }
+    $formatdate = date("Y-m-d",strtotime($date));
+    if($stmt = $mysqli->prepare("INSERT INTO envolee(idEnvolee,Date,Vol_idVol) VALUES (?,?,?)"))
+    {
+        if (!$stmt->bind_param("sss",$id, $formatdate,$idvol))
         {
             echo "Binding parameters failed: (" . $mysqli->errno . ") " . $mysqli->error;
         }
@@ -50,15 +56,23 @@ function insertEnvolee($mysqli,$date,$idvol)
             header('index.php?Insert="fail"');
         }
     }
-
 }
 
 
-function insertSegment($mysqli,$duree,$segment,$heuredepart,$idvol,$depart,$arrive,$avion ,$pilote)
+function insertSegment($duree,$segment,$heuredepart,$idvol,$depart,$arrive,$avion ,$pilote)
 {
-    if($stmt = $mysqli->prepare("INSERT INTO segmentvol(Duree,TypeSegment,HeureDepart,Envolee_idVol,Aeropart_idAeroportDepart,Aeropart_idAeroportArrivee,Appareil_idAppareil,Pilote_idPilote) VALUES (?,?,?,?,?,?,?,?)"))
+    $mysqli = new mysqli("127.0.0.1","root","","portair");
+    if ($mysqli->connect_errno)
     {
-        if (!$stmt->bind_param("ss",$duree, $segment,$heuredepart,$idvol,$depart,$arrive,$avion,$pilote))
+        printf("Connect failed: %s\n", mysqli_connect_error());
+        header('index.php?Connect="fail"');
+    }
+    $datetime = date("H:m:s",strtotime($heuredepart));
+    echo"$datetime";
+    if($stmt = $mysqli->prepare("INSERT INTO segmentvol(TypeSegment,Duree,HeureDepart,Aeropart_idAeropartDepart,Aeropart_idAeropartArrivee,Appareil_idAppareil,Pilote_idPilote,Vol_idVol) VALUES (?,?,?,?,?,?,?,?)"))
+    {
+        echo "here";
+        if (!$stmt->bind_param("ssssssss",$segment,$duree,$datetime,$depart,$arrive,$avion,$pilote,$idvol))
         {
             echo "Binding parameters failed: (" . $mysqli->errno . ") " . $mysqli->error;
         }

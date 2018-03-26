@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a45637c-0998-4a7f-a940-4ddb3e943c9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insertenvolee.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requeteenvolee.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entreenvolee.php" afterPath="$PROJECT_DIR$/entreenvolee.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insertenvolee.php" afterPath="$PROJECT_DIR$/insertenvolee.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,12 +47,13 @@
       <file leaf-file-name="insertenvolee.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/insertenvolee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="391">
+              <caret line="74" column="58" lean-forward="false" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
               <folding>
-                <marker date="1522081521719" expanded="true" signature="671:709" ph="INSERT INTO Envolee... " />
-                <marker date="1522081521719" expanded="true" signature="1086:1145" ph="INSERT INTO envolee... " />
-                <marker date="1522081521719" expanded="true" signature="1645:1826" ph="INSERT INTO Envolee... " />
+                <marker date="1522086925143" expanded="true" signature="664:697" ph="INSERT INTO Envolee... " />
+                <marker date="1522086925143" expanded="true" signature="1326:1386" ph="INSERT INTO envolee... " />
+                <marker date="1522086925143" expanded="true" signature="2116:2169" ph="INSERT INTO segmentvol... " />
+                <marker date="1522086925143" expanded="true" signature="2116:2293" ph="INSERT INTO Envolee... " />
               </folding>
             </state>
           </provider>
@@ -76,13 +75,13 @@
       <file leaf-file-name="entreenvolee.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entreenvolee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="119" column="47" lean-forward="false" selection-start-line="119" selection-start-column="47" selection-end-line="119" selection-end-column="47" />
+            <state relative-caret-position="2456">
+              <caret line="151" column="13" lean-forward="true" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
               <folding>
-                <marker date="1522080749073" expanded="true" signature="4532:4557" ph="SELECT idPil... Envolee" />
-                <marker date="1522080749073" expanded="true" signature="4532:4563" ph="SELECT idPil... pilote" />
-                <marker date="1522080749073" expanded="true" signature="5033:5060" ph="SELECT idPil... Envolee" />
-                <marker date="1522080749073" expanded="true" signature="5033:5068" ph="SELECT idApp... appareil" />
+                <marker date="1522085427019" expanded="true" signature="4508:4533" ph="SELECT idPil... Envolee" />
+                <marker date="1522085427019" expanded="true" signature="4508:4539" ph="SELECT idPil... pilote" />
+                <marker date="1522085427019" expanded="true" signature="5009:5036" ph="SELECT idPil... Envolee" />
+                <marker date="1522085427019" expanded="true" signature="5009:5044" ph="SELECT idApp... appareil" />
               </folding>
             </state>
           </provider>
@@ -282,18 +281,18 @@
       <updated>1521745511582</updated>
       <workItem from="1521745515392" duration="1484000" />
       <workItem from="1521997839637" duration="7147000" />
-      <workItem from="1522074462406" duration="7059000" />
+      <workItem from="1522074462406" duration="12431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15690000" />
+    <option name="totallyTimeSpent" value="21062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14723927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -344,10 +343,10 @@
         <state relative-caret-position="238">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1522080749073" expanded="true" signature="4532:4557" ph="SELECT idPil... Envolee" />
-            <marker date="1522080749073" expanded="true" signature="4532:4563" ph="SELECT idPil... pilote" />
-            <marker date="1522080749073" expanded="true" signature="5033:5060" ph="SELECT idPil... Envolee" />
-            <marker date="1522080749073" expanded="true" signature="5033:5068" ph="SELECT idApp... appareil" />
+            <marker date="1522085427019" expanded="true" signature="4508:4533" ph="SELECT idPil... Envolee" />
+            <marker date="1522085427019" expanded="true" signature="4508:4539" ph="SELECT idPil... pilote" />
+            <marker date="1522085427019" expanded="true" signature="5009:5036" ph="SELECT idPil... Envolee" />
+            <marker date="1522085427019" expanded="true" signature="5009:5044" ph="SELECT idApp... appareil" />
           </folding>
         </state>
       </provider>
@@ -396,25 +395,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/entreenvolee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="119" column="47" lean-forward="false" selection-start-line="119" selection-start-column="47" selection-end-line="119" selection-end-column="47" />
+        <state relative-caret-position="2456">
+          <caret line="151" column="13" lean-forward="true" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
           <folding>
-            <marker date="1522080749073" expanded="true" signature="4532:4557" ph="SELECT idPil... Envolee" />
-            <marker date="1522080749073" expanded="true" signature="4532:4563" ph="SELECT idPil... pilote" />
-            <marker date="1522080749073" expanded="true" signature="5033:5060" ph="SELECT idPil... Envolee" />
-            <marker date="1522080749073" expanded="true" signature="5033:5068" ph="SELECT idApp... appareil" />
+            <marker date="1522085427019" expanded="true" signature="4508:4533" ph="SELECT idPil... Envolee" />
+            <marker date="1522085427019" expanded="true" signature="4508:4539" ph="SELECT idPil... pilote" />
+            <marker date="1522085427019" expanded="true" signature="5009:5036" ph="SELECT idPil... Envolee" />
+            <marker date="1522085427019" expanded="true" signature="5009:5044" ph="SELECT idApp... appareil" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insertenvolee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="391">
+          <caret line="74" column="58" lean-forward="false" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
           <folding>
-            <marker date="1522081521719" expanded="true" signature="671:709" ph="INSERT INTO Envolee... " />
-            <marker date="1522081521719" expanded="true" signature="1086:1145" ph="INSERT INTO envolee... " />
-            <marker date="1522081521719" expanded="true" signature="1645:1826" ph="INSERT INTO Envolee... " />
+            <marker date="1522086925143" expanded="true" signature="664:697" ph="INSERT INTO Envolee... " />
+            <marker date="1522086925143" expanded="true" signature="1326:1386" ph="INSERT INTO envolee... " />
+            <marker date="1522086925143" expanded="true" signature="2116:2169" ph="INSERT INTO segmentvol... " />
+            <marker date="1522086925143" expanded="true" signature="2116:2293" ph="INSERT INTO Envolee... " />
           </folding>
         </state>
       </provider>
