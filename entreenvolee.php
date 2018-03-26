@@ -14,7 +14,7 @@ include 'headerButtons.php';
     <h1>Information d'une envolée</h1>
 
     <br>
-        <form action="requeteenvolee.php" method="post">
+        <form action="insertenvolee.php" method="post">
 
 
             <table>
@@ -33,6 +33,7 @@ include 'headerButtons.php';
                     echo"La durée ne peut être de zéro.";
                 }
                 ?>
+
                 <tr><td>Identifiant du segment</td>
                     <td>
                         <select name='segment'>
@@ -91,22 +92,36 @@ include 'headerButtons.php';
                 <tr><td>Appareil</td>
                     <td>
                         <select name="avion">
-                            <option value="1">CADM</option>
-                            <option value="2">COPA</option>
+                            <?php
+                            selectAppareil();
+                            ?>
                         </select>
                     </td>
                 </tr>
                 <tr><td>Pilote</td>
                     <td>
                         <select name="pilote">
-                            <option value="1">Serge Korvac</option>
-                            <option value="2">Robert Hallec</option>
-                            <option value="3">Steve Tremblay</option>
+                            <?php
+                            selectPilote();
+                            ?>
                         </select>
                     </td>
                 </tr>
             </table>
             <br>
+            <table>
+                <tr><th>Vol</th></tr>
+                <tr>
+                    <td>Identifiant vol</td>
+                    <td>
+                        <select name="idvol">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
             <input type="submit" name="submit" value="Submit">
             <?php
             if (isset($_GET["Error"]))
@@ -121,3 +136,44 @@ include 'headerButtons.php';
     <div class ="clear"></div>
 </body>
 </html>
+
+<?php
+
+function selectPilote()
+{
+    $mysqli = new mysqli("127.0.0.1","root","","portair");
+    if ($stmt = $mysqli->prepare("SELECT idPilote,Nom FROM pilote"))
+    {
+        $stmt->execute();
+        $result= $stmt->get_result();
+        if ($result->num_rows !=0)
+        {
+            while ($row = $result->fetch_assoc())
+            {
+                $nom = $row['Nom'];
+                $id = $row['idPilote'];
+                echo"<option value='$id'>$nom</option>";
+            }
+        }
+    }
+}
+
+function selectAppareil()
+{
+    $mysqli = new mysqli("127.0.0.1","root","","portair");
+    if ($stmt = $mysqli->prepare("SELECT idAppareil,Nom FROM appareil"))
+    {
+        $stmt->execute();
+        $result= $stmt->get_result();
+        if ($result->num_rows !=0)
+        {
+            while ($row = $result->fetch_assoc())
+            {
+                $nom = $row['Nom'];
+                $id = $row['idAppareil'];
+                echo"<option value='$id'>$nom</option>";
+            }
+        }
+    }
+}
+?>
