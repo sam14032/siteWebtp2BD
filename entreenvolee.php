@@ -14,7 +14,7 @@ include 'headerButtons.php';
     <h1>Information d'une envolée</h1>
 
     <br>
-        <form action="" method="post">
+        <form action="requeteenvolee.php" method="post">
 
 
             <table>
@@ -35,7 +35,7 @@ include 'headerButtons.php';
                 ?>
                 <tr><td>Identifiant du segment</td>
                     <td>
-                        <select name='segement'>
+                        <select name='segment'>
                             <option value='A'>A</option>
                             <option value='B'>B</option>
                             <option value='C'>C</option>

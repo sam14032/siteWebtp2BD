@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a45637c-0998-4a7f-a940-4ddb3e943c9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enregEnvolee.php" afterPath="$PROJECT_DIR$/enregEnvolee.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requeteenvolee.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/enregEnvolee.php" afterPath="$PROJECT_DIR$/entreenvolee.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/headerButtons.php" afterPath="$PROJECT_DIR$/headerButtons.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,22 +46,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enregEnvolee.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/enregEnvolee.php">
+      <file leaf-file-name="entreenvolee.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entreenvolee.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1284">
+              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requeteenvolee.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requeteenvolee.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <marker date="1522009943291" expanded="true" signature="769:1241" ph="..." />
-                <marker date="1522009943291" expanded="true" signature="825:1219" ph="..." />
-                <marker date="1522009943291" expanded="true" signature="874:1193" ph="..." />
-                <marker date="1522009943291" expanded="true" signature="1408:1550" ph="..." />
-                <marker date="1522009943291" expanded="true" signature="1472:1550" ph="..." />
-                <marker date="1522009943291" expanded="true" signature="1512:1550" ph="..." />
-                <marker date="1522009943291" expanded="true" signature="2070:2149" ph="..." />
-                <marker date="1522009943291" expanded="true" signature="2111:2149" ph="..." />
-                <marker date="1522009943291" expanded="true" signature="2878:2919" ph="..." />
-              </folding>
+              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,6 +78,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/headerButtons.php" />
         <option value="$PROJECT_DIR$/enregEnvolee.php" />
+        <option value="$PROJECT_DIR$/entreenvolee.php" />
+        <option value="$PROJECT_DIR$/requeteenvolee.php" />
       </list>
     </option>
   </component>
@@ -126,8 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,6 +159,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,12 +258,13 @@
       <option name="presentableId" value="Default" />
       <updated>1521745511582</updated>
       <workItem from="1521745515392" duration="1484000" />
-      <workItem from="1521997839637" duration="7104000" />
+      <workItem from="1521997839637" duration="7147000" />
+      <workItem from="1522074462406" duration="1564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8588000" />
+    <option name="totallyTimeSpent" value="10195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
@@ -296,9 +302,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/headerButtons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entreenvolee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/header_css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -318,29 +355,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/header_css.css">
+    <entry file="file://$PROJECT_DIR$/entreenvolee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="-1284">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/enregEnvolee.php">
+    <entry file="file://$PROJECT_DIR$/requeteenvolee.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1522009943291" expanded="true" signature="769:1241" ph="..." />
-            <marker date="1522009943291" expanded="true" signature="825:1219" ph="..." />
-            <marker date="1522009943291" expanded="true" signature="874:1193" ph="..." />
-            <marker date="1522009943291" expanded="true" signature="1408:1550" ph="..." />
-            <marker date="1522009943291" expanded="true" signature="1472:1550" ph="..." />
-            <marker date="1522009943291" expanded="true" signature="1512:1550" ph="..." />
-            <marker date="1522009943291" expanded="true" signature="2070:2149" ph="..." />
-            <marker date="1522009943291" expanded="true" signature="2111:2149" ph="..." />
-            <marker date="1522009943291" expanded="true" signature="2878:2919" ph="..." />
-          </folding>
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
