@@ -4,6 +4,8 @@
 <?php
 include 'headerButtons.php';
 ?>
+
+//création du formulaire et des erreurs.
 <body>
     <div class="bodyDiv"></div>
 
@@ -27,12 +29,7 @@ include 'headerButtons.php';
 
                 <tr><td>Durée en minute</td>
                     <td><input type="text" name="duree"></td></tr>
-                <?php
-                if (isset($_GET["durMin"]))
-                {
-                    echo"La durée ne peut être de zéro.";
-                }
-                ?>
+
 
                 <tr><td>Identifiant du segment</td>
                     <td>
@@ -41,7 +38,6 @@ include 'headerButtons.php';
                             <option value='B'>B</option>
                             <option value='C'>C</option>
                             <option value='D'>D</option>
-                            <option value='E'>E</option>
                         </select>
                     </td>
                 </tr>
@@ -78,12 +74,6 @@ include 'headerButtons.php';
                     </td>
                 </tr>
             </table>
-            <?php
-            if (isset($_GET["erDepart"]))
-            {
-                echo"Le départ et l'arrivé ne peut être pareil.";
-            }
-            ?>
 
             <br>
 
@@ -114,21 +104,38 @@ include 'headerButtons.php';
                 <tr>
                     <td>Identifiant vol</td>
                     <td>
-                        <select name="idvol">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                        </select>
+						<td><input type="text" name="idvol"></td>
                     </td>
                 </tr>
             </table>
             <input type="submit" name="submit" value="Submit">
-            <?php
-            if (isset($_GET["Error"]))
-            {
-                echo"Tout les champs doivent être remplis";
-            }
+			<?php
+			//Gestion des erreurs possibles 
+			if (isset($_GET["error"]))
+			{
+				if($_GET["error"] == "vol")
+				{
+					echo "Le vol n'est pas valide";
+				}
+				else if ($_GET["error"] == "date")
+				{
+					echo "La date n'est pas valide";
+				}
+				else if ($_GET["error"] == "segment")
+				{
+					echo "La durrée en minute et/ou l'heure de départ n'est ou ne sont pas valide(s)";
+				}
+				else if ($_GET["error"] == "aeroport")
+				{
+					echo"Le départ et l'arrivé ne peut être pareil.";
+				}            
+                else if ($_GET["error"] == "duree")
+                {
+                    echo"La durée ne peut être de zéro.";
+                }
+			}
             ?>
+
         </form>
     </div>
     </div>
@@ -139,6 +146,7 @@ include 'headerButtons.php';
 
 <?php
 
+//permet d'aller chercher les identifiants et les noms des pilotes depuis la base de données
 function selectPilote()
 {
     $mysqli = new mysqli("127.0.0.1","root","","portair");
@@ -158,6 +166,7 @@ function selectPilote()
     }
 }
 
+//permet d'aller chercher les identifiants et les noms des avions depuis la base de données.
 function selectAppareil()
 {
     $mysqli = new mysqli("127.0.0.1","root","","portair");
