@@ -3,18 +3,33 @@
 
 <?php
 include 'headerButtons.php';
-//création du formulaire et des erreurs.
 ?>
 
 <body>
 <div class="bodyDiv"></div>
 
 <div class="bodyDiv">
-    <br>
-    <br>
-
     <h1>Information d'une envolée</h1>
 
+    <form action="modifenvolee.php" method="post">
+        <table>
+            <tr>
+                <th>Sélectionner l'envolée</th>
+            </tr>
+            <tr>
+                <td><select name="envolee">
+                    <?php
+                    selectEnvolee();
+                    ?>
+                </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <br>
+    <br>
+    
     <br>
     <form action="insertenvolee.php" method="post">
 
@@ -22,11 +37,12 @@ include 'headerButtons.php';
             <tr><th>Information de l'envolée</th></tr>
             <tr>
                 <td>Date de départ</td>
-                <td><input type='date' name='date'></td>
+                <td><input type="date" name="date"></td>
             </tr>
             <tr><td>Appareil</td>
                 <td>
                     <select name="avion">
+
                         <?php
                         selectAppareil();
                         ?>
@@ -44,13 +60,7 @@ include 'headerButtons.php';
             </tr>
             <tr>
                 <td>Identifiant vol</td>
-                <td>
-                    <select name="idvol">
-                        <?php
-                        selectVol();
-                        ?>
-                    </select>
-                </td>
+                <td><input type="text" name="idvol"></td>
             </tr>
         </table>
         <input type="submit" name="submit" value="Submit">
@@ -73,12 +83,12 @@ include 'headerButtons.php';
 </html>
 
 <?php
-
+//idEnvolee,Date,Vol_idVol,Pilote_idPilote,Appareil_idAppareil
 //permet d'aller chercher les identifiants et les noms des pilotes depuis la base de données
-function selectPilote()
+function selectEnvolee()
 {
     $mysqli = new mysqli("127.0.0.1","root","","portair");
-    if ($stmt = $mysqli->prepare("SELECT idPilote,Nom FROM pilote"))
+    if ($stmt = $mysqli->prepare("SELECT idEnvolee FROM envolee"))
     {
         $stmt->execute();
         $result= $stmt->get_result();
@@ -86,49 +96,9 @@ function selectPilote()
         {
             while ($row = $result->fetch_assoc())
             {
-                $nom = $row['Nom'];
-                $id = $row['idPilote'];
-                echo"<option value='$id'>$nom</option>";
-            }
-        }
-    }
-}
-
-//permet d'aller chercher les identifiants et les noms des avions depuis la base de données.
-function selectAppareil()
-{
-    $mysqli = new mysqli("127.0.0.1","root","","portair");
-    if ($stmt = $mysqli->prepare("SELECT idAppareil,Nom FROM appareil"))
-    {
-        $stmt->execute();
-        $result= $stmt->get_result();
-        if ($result->num_rows !=0)
-        {
-            while ($row = $result->fetch_assoc())
-            {
-                $nom = $row['Nom'];
-                $id = $row['idAppareil'];
-                echo"<option value='$id'>$nom</option>";
-            }
-        }
-    }
-}
-
-function selectVol()
-{
-    $mysqli = new mysqli("127.0.0.1","root","","portair");
-    if ($stmt = $mysqli->prepare("SELECT noVol FROM vol"))
-    {
-        $stmt->execute();
-        $result= $stmt->get_result();
-        if ($result->num_rows !=0)
-        {
-            while ($row = $result->fetch_assoc())
-            {
-                $nom = $row['noVol'];
+                $nom = $row['idEnvolee'];
                 echo"<option value='$nom'>$nom</option>";
             }
         }
     }
 }
-?>
