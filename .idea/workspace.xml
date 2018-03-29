@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a45637c-0998-4a7f-a940-4ddb3e943c9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/majenvolee.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modifenvolee.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entreenvolee.php" afterPath="$PROJECT_DIR$/entreenvolee.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/headerButtons.php" afterPath="$PROJECT_DIR$/headerButtons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insertenvolee.php" afterPath="$PROJECT_DIR$/insertenvolee.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/majenvolee.php" afterPath="$PROJECT_DIR$/majenvolee.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modifenvolee.php" afterPath="$PROJECT_DIR$/modifenvolee.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,7 +40,17 @@
         <entry file="file://$PROJECT_DIR$/headerButtons.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+              <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modifenvolee.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modifenvolee.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,38 +59,10 @@
       <file leaf-file-name="insertenvolee.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/insertenvolee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="93">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="46" selection-end-column="2" />
               <folding>
-                <marker date="1522348151652" expanded="true" signature="672:772" ph="INSERT INTO envolee... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modifenvolee.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modifenvolee.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-              <folding>
-                <marker date="1522348674346" expanded="true" signature="631:633" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="631:685" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="648:685" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="720:793" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="720:835" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="852:1102" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="890:891" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="890:924" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="890:1084" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="932:1062" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="1119:1365" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="1155:1189" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="1155:1347" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="1198:1325" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="1382:1456" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="1382:1499" ph="..." />
-                <marker date="1522348674346" expanded="true" signature="2190:2219" ph="SELECT idEnv... envolee" />
+                <marker date="1522349327953" expanded="true" signature="672:772" ph="INSERT INTO envolee... " />
               </folding>
             </state>
           </provider>
@@ -91,8 +71,8 @@
       <file leaf-file-name="entreenvolee.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entreenvolee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+            <state relative-caret-position="833">
+              <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
               <folding>
                 <marker date="1522348210312" expanded="true" signature="1921:1952" ph="SELECT idPil... pilote" />
                 <marker date="1522348210312" expanded="true" signature="2515:2550" ph="SELECT idApp... appareil" />
@@ -115,12 +95,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="majenvolee.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="majenvolee.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/majenvolee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="314">
+              <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+              <folding>
+                <element signature="n#selectEnvolee#0;n#!!top" expanded="false" />
+                <element signature="n#selectPilote#0;n#!!top" expanded="false" />
+                <element signature="n#selectAppareil#0;n#!!top" expanded="false" />
+                <element signature="n#selectVol#0;n#!!top" expanded="false" />
+                <marker date="1522351791772" expanded="true" signature="1305:1610" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="1322:1610" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="1393:1508" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="1525:1610" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="1563:1610" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="1605:1610" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="1733:1833" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="1769:1833" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="1812:1833" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="1952:2069" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="2014:2069" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="2052:2069" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="2481:2510" ph="SELECT idEnv... envolee" />
+                <marker date="1522351791772" expanded="true" signature="3037:3068" ph="SELECT idPil... pilote" />
+                <marker date="1522351791772" expanded="true" signature="3631:3666" ph="SELECT idApp... appareil" />
+                <marker date="1522351791772" expanded="true" signature="4133:4154" ph="SELECT noVol... vol" />
+                <marker date="1522351791772" expanded="true" signature="4522:4569" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="4522:4597" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="4572:4597" ph="..." />
+                <marker date="1522351791772" expanded="true" signature="4666:4693" ph="SELECT * FRO... envolee" />
+                <marker date="1522351791772" expanded="true" signature="4666:4707" ph="SELECT * FRO... envolee" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,10 +144,11 @@
         <option value="$PROJECT_DIR$/enregEnvolee.php" />
         <option value="$PROJECT_DIR$/requeteenvolee.php" />
         <option value="$PROJECT_DIR$/temp.php" />
-        <option value="$PROJECT_DIR$/insertenvolee.php" />
         <option value="$PROJECT_DIR$/entreenvolee.php" />
-        <option value="$PROJECT_DIR$/headerButtons.php" />
+        <option value="$PROJECT_DIR$/insertenvolee.php" />
         <option value="$PROJECT_DIR$/modifenvolee.php" />
+        <option value="$PROJECT_DIR$/headerButtons.php" />
+        <option value="$PROJECT_DIR$/majenvolee.php" />
       </list>
     </option>
   </component>
@@ -323,18 +330,18 @@
       <workItem from="1521997839637" duration="7147000" />
       <workItem from="1522074462406" duration="13719000" />
       <workItem from="1522110267820" duration="959000" />
-      <workItem from="1522344233011" duration="4417000" />
+      <workItem from="1522344233011" duration="7521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27726000" />
+    <option name="totallyTimeSpent" value="30830000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19325154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.040644173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -385,7 +392,7 @@
         <state relative-caret-position="1275">
           <caret line="75" column="56" lean-forward="false" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
           <folding>
-            <marker date="1522348151652" expanded="true" signature="672:772" ph="INSERT INTO envolee... " />
+            <marker date="1522349327953" expanded="true" signature="672:772" ph="INSERT INTO envolee... " />
           </folding>
         </state>
       </provider>
@@ -423,7 +430,7 @@
         <state relative-caret-position="272">
           <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <marker date="1522348151652" expanded="true" signature="672:772" ph="INSERT INTO envolee... " />
+            <marker date="1522349327953" expanded="true" signature="672:772" ph="INSERT INTO envolee... " />
           </folding>
         </state>
       </provider>
@@ -496,14 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/majenvolee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -512,10 +511,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/headerButtons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modifenvolee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/entreenvolee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        <state relative-caret-position="833">
+          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
           <folding>
             <marker date="1522348210312" expanded="true" signature="1921:1952" ph="SELECT idPil... pilote" />
             <marker date="1522348210312" expanded="true" signature="2515:2550" ph="SELECT idApp... appareil" />
@@ -526,44 +541,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/insertenvolee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="93">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="46" selection-end-column="2" />
           <folding>
-            <marker date="1522348151652" expanded="true" signature="672:772" ph="INSERT INTO envolee... " />
+            <marker date="1522349327953" expanded="true" signature="672:772" ph="INSERT INTO envolee... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/headerButtons.php">
+    <entry file="file://$PROJECT_DIR$/majenvolee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modifenvolee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state relative-caret-position="314">
+          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
           <folding>
-            <marker date="1522348674346" expanded="true" signature="631:633" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="631:685" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="648:685" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="720:793" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="720:835" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="852:1102" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="890:891" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="890:924" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="890:1084" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="932:1062" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="1119:1365" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="1155:1189" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="1155:1347" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="1198:1325" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="1382:1456" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="1382:1499" ph="..." />
-            <marker date="1522348674346" expanded="true" signature="2190:2219" ph="SELECT idEnv... envolee" />
+            <element signature="n#selectEnvolee#0;n#!!top" expanded="false" />
+            <element signature="n#selectPilote#0;n#!!top" expanded="false" />
+            <element signature="n#selectAppareil#0;n#!!top" expanded="false" />
+            <element signature="n#selectVol#0;n#!!top" expanded="false" />
+            <marker date="1522351791772" expanded="true" signature="1305:1610" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="1322:1610" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="1393:1508" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="1525:1610" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="1563:1610" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="1605:1610" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="1733:1833" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="1769:1833" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="1812:1833" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="1952:2069" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="2014:2069" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="2052:2069" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="2481:2510" ph="SELECT idEnv... envolee" />
+            <marker date="1522351791772" expanded="true" signature="3037:3068" ph="SELECT idPil... pilote" />
+            <marker date="1522351791772" expanded="true" signature="3631:3666" ph="SELECT idApp... appareil" />
+            <marker date="1522351791772" expanded="true" signature="4133:4154" ph="SELECT noVol... vol" />
+            <marker date="1522351791772" expanded="true" signature="4522:4569" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="4522:4597" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="4572:4597" ph="..." />
+            <marker date="1522351791772" expanded="true" signature="4666:4693" ph="SELECT * FRO... envolee" />
+            <marker date="1522351791772" expanded="true" signature="4666:4707" ph="SELECT * FRO... envolee" />
           </folding>
         </state>
       </provider>
